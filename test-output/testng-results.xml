@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23458" started-at="2023-02-11T21:08:30 CST" finished-at="2023-02-11T21:08:54 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23458" started-at="2023-02-11T21:08:30 CST" finished-at="2023-02-11T21:08:54 CST">
+      <class name="tests.AutomationPracticalTestsTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="setUp" is-config="true" duration-ms="2186" started-at="2023-02-11T21:08:30 CST" finished-at="2023-02-11T21:08:32 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userShouldBeAbleToAddUniqueCategoryName()[pri:1, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="userShouldBeAbleToAddUniqueCategoryName" duration-ms="10886" started-at="2023-02-11T21:08:32 CST" finished-at="2023-02-11T21:08:43 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToAddUniqueCategoryName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="tearDown" is-config="true" duration-ms="161" started-at="2023-02-11T21:08:43 CST" finished-at="2023-02-11T21:08:43 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="setUp" is-config="true" duration-ms="1717" started-at="2023-02-11T21:08:43 CST" finished-at="2023-02-11T21:08:45 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userShouldBeUnableToAddDupicateCategoryName()[pri:2, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="userShouldBeUnableToAddDupicateCategoryName" duration-ms="6310" started-at="2023-02-11T21:08:45 CST" finished-at="2023-02-11T21:08:51 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeUnableToAddDupicateCategoryName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="tearDown" is-config="true" duration-ms="151" started-at="2023-02-11T21:08:51 CST" finished-at="2023-02-11T21:08:52 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="setUp" is-config="true" duration-ms="1701" started-at="2023-02-11T21:08:52 CST" finished-at="2023-02-11T21:08:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateMonthsDropDown()[pri:3, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="validateMonthsDropDown" duration-ms="152" started-at="2023-02-11T21:08:53 CST" finished-at="2023-02-11T21:08:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMonthsDropDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="tearDown" is-config="true" duration-ms="161" started-at="2023-02-11T21:08:53 CST" finished-at="2023-02-11T21:08:54 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AutomationPracticalTestsTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
