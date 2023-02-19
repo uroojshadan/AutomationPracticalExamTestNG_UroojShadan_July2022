@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23458" started-at="2023-02-11T21:08:30 CST" finished-at="2023-02-11T21:08:54 CST">
+  <suite name="Default suite" duration-ms="25711" started-at="2023-02-19T17:19:37 CST" finished-at="2023-02-19T17:20:03 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23458" started-at="2023-02-11T21:08:30 CST" finished-at="2023-02-11T21:08:54 CST">
+    <test name="Default test" duration-ms="25711" started-at="2023-02-19T17:19:37 CST" finished-at="2023-02-19T17:20:03 CST">
       <class name="tests.AutomationPracticalTestsTestNG">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="setUp" is-config="true" duration-ms="2186" started-at="2023-02-11T21:08:30 CST" finished-at="2023-02-11T21:08:32 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="setUp" is-config="true" duration-ms="2905" started-at="2023-02-19T17:19:38 CST" finished-at="2023-02-19T17:19:40 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="userShouldBeAbleToAddUniqueCategoryName()[pri:1, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="userShouldBeAbleToAddUniqueCategoryName" duration-ms="10886" started-at="2023-02-11T21:08:32 CST" finished-at="2023-02-11T21:08:43 CST">
+        <test-method status="PASS" signature="userShouldBeAbleToAddUniqueCategoryName()[pri:1, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="userShouldBeAbleToAddUniqueCategoryName" duration-ms="12258" started-at="2023-02-19T17:19:40 CST" finished-at="2023-02-19T17:19:53 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userShouldBeAbleToAddUniqueCategoryName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="tearDown" is-config="true" duration-ms="161" started-at="2023-02-11T21:08:43 CST" finished-at="2023-02-11T21:08:43 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="tearDown" is-config="true" duration-ms="149" started-at="2023-02-19T17:19:53 CST" finished-at="2023-02-19T17:19:53 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="setUp" is-config="true" duration-ms="1717" started-at="2023-02-11T21:08:43 CST" finished-at="2023-02-11T21:08:45 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="setUp" is-config="true" duration-ms="1784" started-at="2023-02-19T17:19:53 CST" finished-at="2023-02-19T17:19:55 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="userShouldBeUnableToAddDupicateCategoryName()[pri:2, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="userShouldBeUnableToAddDupicateCategoryName" duration-ms="6310" started-at="2023-02-11T21:08:45 CST" finished-at="2023-02-11T21:08:51 CST">
+        <test-method status="PASS" signature="userShouldBeUnableToAddDupicateCategoryName()[pri:2, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="userShouldBeUnableToAddDupicateCategoryName" duration-ms="6333" started-at="2023-02-19T17:19:55 CST" finished-at="2023-02-19T17:20:01 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userShouldBeUnableToAddDupicateCategoryName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="tearDown" is-config="true" duration-ms="151" started-at="2023-02-11T21:08:51 CST" finished-at="2023-02-11T21:08:52 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="tearDown" is-config="true" duration-ms="146" started-at="2023-02-19T17:20:01 CST" finished-at="2023-02-19T17:20:01 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="setUp" is-config="true" duration-ms="1701" started-at="2023-02-11T21:08:52 CST" finished-at="2023-02-11T21:08:53 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="setUp" is-config="true" duration-ms="1731" started-at="2023-02-19T17:20:01 CST" finished-at="2023-02-19T17:20:03 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateMonthsDropDown()[pri:3, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="validateMonthsDropDown" duration-ms="152" started-at="2023-02-11T21:08:53 CST" finished-at="2023-02-11T21:08:53 CST">
+        <test-method status="PASS" signature="validateMonthsDropDown()[pri:3, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="validateMonthsDropDown" duration-ms="190" started-at="2023-02-19T17:20:03 CST" finished-at="2023-02-19T17:20:03 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMonthsDropDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="tearDown" is-config="true" duration-ms="161" started-at="2023-02-11T21:08:53 CST" finished-at="2023-02-11T21:08:54 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AutomationPracticalTestsTestNG@15d0c81b]" name="tearDown" is-config="true" duration-ms="138" started-at="2023-02-19T17:20:03 CST" finished-at="2023-02-19T17:20:03 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
