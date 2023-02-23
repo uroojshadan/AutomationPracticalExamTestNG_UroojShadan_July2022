@@ -18,30 +18,33 @@ public class AutomationPracticalTestsTestNG {
 
 	@BeforeMethod
 	public void setUp() {
-		driver=TestBase.initDriver();
-		techfiosPage=PageFactory.initElements(driver, TechfiosPage.class);
-		errorMessagePage=PageFactory.initElements(driver, ErrorMessagePage.class);
+		driver = TestBase.initDriver();
+		techfiosPage = PageFactory.initElements(driver, TechfiosPage.class);
+		errorMessagePage = PageFactory.initElements(driver, ErrorMessagePage.class);
 	}
-	@Test(priority=1)
+
+	@Test(priority = 1)
 	public void userShouldBeAbleToAddUniqueCategoryName() {
-		boolean result=techfiosPage.addUniqueCategory("MyTestNG");
-		Assert.assertTrue(result,"Unable to add Category");
+		boolean result = techfiosPage.addUniqueCategory("MyTestNG");
+		Assert.assertTrue(result, "Unable to add Category");
 	}
-	@Test(priority=2)
+
+	@Test(priority = 2)
 	public void userShouldBeUnableToAddDupicateCategoryName() {
-		String duplicateName=techfiosPage.addDuplicateCategoryName();
-		String errorMessage=errorMessagePage.validateError();
+		String duplicateName = techfiosPage.addDuplicateCategoryName();
+		String errorMessage = errorMessagePage.validateError();
 		Assert.assertTrue(errorMessage.contains(duplicateName), "Error! Duplicate Category added");
-		
+
 	}
-	@Test(priority=3)
+
+	@Test(priority = 3)
 	public void validateMonthsDropDown() {
-		boolean match=techfiosPage.validateListOfMonthDropDown();
+		boolean match = techfiosPage.validateListOfMonthDropDown();
 		Assert.assertTrue(match, "Months do not match");
 	}
+
 	@AfterMethod
 	public void tearDown() {
-		driver.close();
-		driver.quit();
+		TestBase.tearDown();
 	}
 }
